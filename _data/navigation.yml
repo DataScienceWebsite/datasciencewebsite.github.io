@@ -1,17 +1,11 @@
-# main links links
-main:
-        
-  - title: "CV"
-    url: /cv/
+# Site navigation links
 
-  - title: "Publications"
-    url: /publications/
+- title: All Posts
+  url: /posts/
 
-  #- title: "Portfolio"
-  #  url: /portfolio/
-    
-  - title: "Coding"
-    url: /coding/
-
-  #- title: "Posts"
-    #url: /year-archive/
+- title: RSS
+  url: https://susanli2016.github.io/feed
+  
+- title: About Me
+  url: https://about.me/susanli
+  
