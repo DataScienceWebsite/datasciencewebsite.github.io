@@ -1,20 +1,12 @@
 // Base Class Definition
 // -------------------------
 
-.#{$fa-css-prefix},
-.fas,
-.far,
-.fal,
-.fab {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+.#{$fa-css-prefix} {
   display: inline-block;
+  font-family: FontAwesome;
   font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
+  font-weight: normal;
   line-height: 1;
-}
-
-%fa-icon {
-  @include fa-icon;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

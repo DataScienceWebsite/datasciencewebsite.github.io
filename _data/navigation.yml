@@ -1,17 +1,16 @@
-# main links links
-main:
-        
-  - title: "CV"
-    url: /cv/
+# Site navigation links
 
-  - title: "Publications"
-    url: /publications/
+- title: About Me
+  url: /about/
 
-  #- title: "Portfolio"
-  #  url: /portfolio/
-    
-  - title: "Coding"
-    url: /coding/
+- title: Posts
+  url: /posts/
 
-  #- title: "Posts"
-    #url: /year-archive/
+- title: Learn R
+  url: https://www.datacamp.com/courses/introduction-to-the-tidyverse
+
+- title: Text Mining in R
+  url: https://www.tidytextmining.com/
+
+- title: Introduction to Empirical Bayes
+  url: /r/empirical-bayes-book/
