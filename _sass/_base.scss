@@ -240,15 +240,19 @@ figcaption {
   font-family: $caption-font-family;
   font-size: $type-size-6;
 
+/* Change color of links
+See https://stackoverflow.com/questions/6722467/how-to-remove-the-default-link-color-of-the-html-hyperlink-a-tag
+ */
+ 
   a {
-    color: inherit;
+    color: red;
     text-decoration: none;
     border-bottom: 1px solid $light-gray;
     -webkit-transition: $global-transition;
     transition: $global-transition;
 
     &:hover {
-      color: #000;
+      color: blue;
       border-bottom-color: #000;
     }
   }
